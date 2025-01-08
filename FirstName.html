@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First Name Validation</title>
+        <body>
+            <form>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstname" name="firstname" pattern="^[A-Za-z]{0,49}$" title="First name should only contain letters and must be 1-50 characters long." required>
+                <input type="Submit" value="Submit">
+            </form>
+        </body>
+    </head>
+</html>
+
+<form>
+    <label for="firstname">Firstname:</label>
+    <input type="text" id="firstname" name="firstname" pattern="^[A-Za-z]{0,49}$" title="First name should be letters" required>
+    <input type="submit" value="Submit">
+</form>
+
+<form>
+    <label for="firstname">FirstName:</label>
+    <input type="text" id="firstname" name="firstname" pattern="^[A-Za-z]{0,49}$" title="should be character" required>
+    <input type="submit" value="Submit">
+</form>

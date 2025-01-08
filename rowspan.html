@@ -1,0 +1,299 @@
+<!-- <table border="1">
+    <tr>
+      <th>Day</th>
+      <th>Activity</th>
+    </tr>
+    <tr>
+      <td>Monday</td>
+      <td rowspan="2">Yoga</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Swimming</td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td>Running</td>
+    </tr>
+  </table>
+   -->
+
+
+   <!-- <!DOCTYPE html>
+   <html>
+    <head>
+        <title>rowspan</title>
+    </head>
+    <body>
+        <table border>
+            <tr>
+                <th>Time</th>
+                <th>Period 1</th>
+                <th>Period 2</th>
+                <th>Period 3</th>
+                <th>Period 4</th>
+                
+            </tr><br>
+            <tr>Monday</tr>
+            <tr>Tuesday</tr>
+            <tr>Wednesday
+                <th rowspan="2">Maths</th>
+            </tr>
+
+            <tr>Thursday</tr>
+            <tr>Friday</tr>
+        </table>
+    </body>
+   </html> -->
+
+   <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Timetable</title>
+    <style>
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<h2 style="text-align: center;">Class Timetable</h2>
+
+<table>
+    <tr>
+        <th>Day</th>
+        <th>Period 1</th>
+        <th>Period 2</th>
+        <th>Period 3</th>
+        <th>Period 4</th>
+    </tr>
+    <tr>
+        <td>Monday</td>
+        <td>English</td>
+        <td>Math</td>
+        <td>History</td>
+        <td>Physics</td>
+    </tr>
+    <tr>
+        <td>Tuesday</td>
+        <td>Biology</td>
+        <td>Chemistry</td>
+        <td>Math</td>
+        <td>PE</td>
+    </tr>
+    <tr>
+        <td>Wednesday</td>
+        <td rowspan="2">Math</td>  <!-- Math spans Period 1 and Period 2 -->
+        <!-- <td rowspan="2">Physics</td>
+        <td>History</td>
+        <td>PE</td>
+    </tr>
+    <tr>
+        <td>Thursday</td>
+        <td>English</td>
+        <td>Chemistry</td>
+    </tr>
+    <tr>
+        <td>Friday</td>
+        <td>PE</td>
+        <td>History</td>
+        <td>Math</td>
+        <td>Biology</td>
+    </tr>
+</table>
+
+</body>
+</html> -->
+ -->
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title>rowSpan</title>
+    </head>
+    <body>
+        <table border="1" align="center">
+            <tr>
+                <th>Day</th>
+                <th>Period 1</th>
+                <th>Period 2</th>
+                <th>Period 3</th>
+                <th>Period 4</th>
+            </tr>
+            <tr>
+                <td><b>Monday</b></td>
+                <td>English</td>
+                <td align="center">Math</td>
+                <td>History</td>
+                <td>Physics</td>
+            </tr>
+            <tr>
+                <td><b>Tuesday</b></td>
+                <td>Biology</td>
+                <td>Chemistry</td>
+                <td align="center">Math</td>
+                <td align="center">PE</td>
+            </tr>
+            <tr>
+                <td><b>Wednesday</b></td>
+                <td colspan="2" align="center">Math</td>
+                <td>History</td>
+                <td align="center">PE</td>
+            </tr>
+            <tr>
+                <td><b>Thursday</b></td>
+                <td rowspan="2" align="center">PE</td>
+                <td>Physics</td>
+                <td>English</td>
+                <td>Chemistry</td>
+            </tr>
+            <tr>
+                <td><b>Friday</b></td>
+                
+                <td>History</td>
+                <td align="center">Math</td>
+                <td>Biology</td>
+            </tr>
+        </table border>
+    </body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Schedule</title>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<h2 style="text-align: center;">Weekly Meeting Schedule</h2>
+
+<table>
+    <tr>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+    </tr>
+    <tr>
+        <td>9:00 - 10:00 AM</td>
+        <td rowspan="2">Team Meeting</td>
+        <td>Project Discussion</td>
+        <td rowspan="2">Client Call</td>
+        <td>Design Review</td>
+        <td>Weekly Planning</td>
+    </tr>
+    <tr>
+        <td>10:00 - 11:00 AM</td>
+        <td>Development Sprint</td>
+        <td>Backend Sync</td>
+    </tr>
+    <tr>
+        <td colspan="6">Lunch Break</td>
+    </tr>
+    <tr>
+        <td>1:00 - 2:00 PM</td>
+        <td>Workshop</td>
+        <td>Code Review</td>
+        <td>Marketing Strategy</td>
+        <td>Team Check-in</td>
+        <td>Stand-up Meeting</td>
+    </tr>
+</table>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Spanning</title>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Schedule</title>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+    </head>
+    <body>
+        <h3 align="center">Weekly Meeting Schedule</h3>
+        <table border="1" align="center">
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+            <tr>
+                <td>9:00 - 10:00 AM</td>
+                <td rowspan="2">Team Meeting</td>
+                <td>Project Discussion</td>
+                <td rowspan="2">Client Cell</td>
+                <td>Design Review</td>
+                <td>Weekly Planning</td>
+            </tr>
+            <tr>
+                <td>10:00 - 11:00 AM</td>
+                <td>Development Print</td>
+                <td>Backend Sync</td>
+            </tr>
+            <tr>
+                <td colspan="6" align="center">Lunch Break</td>
+            </tr>
+            <tr>
+                <td>1:00 - 2:00 PM</td>
+                <td>Workshop</td>
+                <td>Code Review</td>
+                <td>Marketing Strategy</td>
+                <td>Team Check-in</td>
+                <td>Stand-up Meeting</td>
+            </tr>
+        </table>
+    </body>
+</html>
